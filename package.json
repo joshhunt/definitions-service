@@ -1,0 +1,30 @@
+{
+  "name": "definitions-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc && node ./dist/index.js",
+    "start:ingest": "tsc && node ./dist/ingestArchive.js"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.2",
+    "prettier": "^1.18.2",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "@types/async": "^3.0.2",
+    "@types/dotenv": "^6.1.1",
+    "@types/sequelize": "^4.28.4",
+    "@types/sqlite3": "^3.1.5",
+    "async": "^3.1.0",
+    "async-es": "^2.6.3",
+    "bungie-api-ts": "^2.1.0",
+    "dotenv": "^8.1.0",
+    "node-fetch": "^2.6.0",
+    "pg": "^7.12.1",
+    "sequelize": "^5.19.0",
+    "sqlite3": "^4.1.0",
+    "unzip-stream": "^0.3.0"
+  }
+}
