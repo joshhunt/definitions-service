@@ -21,7 +21,7 @@
     "async-es": "^2.6.3",
     "bungie-api-ts": "^2.1.0",
     "dotenv": "^8.1.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "pg": "^7.12.1",
     "sequelize": "^5.19.0",
     "sqlite3": "^4.1.0",
